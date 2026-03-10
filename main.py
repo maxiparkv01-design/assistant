@@ -1,13 +1,12 @@
 from news import get_news
-from briefing import make_briefing
+from summary import summarize_news
 from voice import text_to_speech
 
 
 def main():
-
     news = get_news()
 
-    briefing_text = make_briefing(news)
+    briefing_text = summarize_news(news)
 
     print(briefing_text)
 
