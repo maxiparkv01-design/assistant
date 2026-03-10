@@ -1,0 +1,12 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# audio files
+*.mp3
+
+# macOS
+.DS_Store
