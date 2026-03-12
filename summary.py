@@ -44,7 +44,7 @@ def summarize_news(news: dict[str, list[str]]) -> str:
                 {"role": "user", "content": prompt},
             ],
             temperature=0.4,
-            max_tokens=400,
+            max_tokens=1000,
         )
 
         print("GPT 요약 응답 완료")
